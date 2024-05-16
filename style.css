@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.main-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 63, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calcu-box{
+    /* width: 20%; */
+    background-color: rgb(49, 47, 47);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calcu-box form input{
+    width: 67px;
+    height: 67px;
+    border: none;
+    outline: none;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-weight: 777;
+    color: rgb(233, 233, 233);
+    background-color: rgb(139, 125, 125);
+    border-radius: 4px;
+    font-size: 17px;
+}
+.calcu-box form input:hover{
+  background-color: rgb(101, 250, 95);
+}
+
+.box1 input:nth-child(1){
+    background-color: rgb(250, 63, 63);
+}
+.box1 input:nth-child(2){
+    background-color: rgb(243, 136, 136);
+}
+
+.box6 input:nth-child(2){
+    background-color: rgb(78, 245, 245);
+}
+
+.calcu-box form .display{
+    width: 100%;
+    margin-bottom: 4px;
+    input{
+        background-color: rgba(155, 149, 149, 0.788);
+        padding: 0 10px;
+        font-size: 19px;
+        border-radius: 5px;
+        font-weight: 777;
+        text-align: end;
+        width: 100%;
+        
+    }
+    input::placeholder{
+        color: rgb(179, 164, 164);
+    }
+}
